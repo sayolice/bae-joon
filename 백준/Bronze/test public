@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        // 입력
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        // logic 메서드 호출
+        int square= logic(a,b);
+        
+        System.out.println(square);
+    }
+    // 넓이 메서드
+    public static int logic(int a, int b){
+        int result=a*b;
+        return result;
+    }
+}
